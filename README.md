@@ -6,7 +6,7 @@ The idea is to build this app using technology that will be close to what we are
 
 ## Objectives
 1. Conduct initial data exploration on the dataset and show your results on the app. Please spend time sparsely on this, the goal is to get some basic meaningful initial insights on the data in a reasonable amount of time.
-2. Conduct data pre-processing : ensure high-quality by cleaning dirty data, imputing missing values, and handling outliers. Show the impact of the data cleaning on the app.
+2. Conduct data pre-processing: ensure high-quality by cleaning dirty data, imputing missing values, and handling outliers. Show the impact of the data cleaning on the app.
 3. Conduct minimal data exploration analysis, i.e try to understand some of the variable relationships in the dataset
 4. Then your task is to create a stock charts for any ticker the user types in. You can use a library like yfinance to get stock data, and you should then build a UI that allows users to enter in company names or ticker symbols, select the stock they want to view, and then a chart will be presented to them where they can modify the time intervals.
 5. Add a last button which will allow users to save the tickets to their list of favorite. All favorite tickers data should be shown on the chart at the same time to be able to compare them and select which one to buy?
