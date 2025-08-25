@@ -13,11 +13,11 @@ The idea is to build this app using technology that will be close to what we are
 
 ## Requirements
 
-All data (both from our raw data and yfinance results) must be exposed through FastAPI APIs. The Streamlit code should, as much as possible, be used to generate UIs, not process any data. I.e keep a traditionnal front/back separation of concerns.
-The project must be run using docker-compose (both streamlit / fastAPI server must be docker-compose services). Please also add a minimal readme explaining any actions necessary to run the project locally. If you are un-experience with docker-compose, using only one docker image is also possible but discouraged..
-You can use any charting libraries outsides of what streamlit offers if necessary
-Please try to enforce best practices when implementing APIs, and make the code as generic, maintainable and extensible as possible
-Please remain conscious of time : overall allocation of effort should be 30% on the data analysis/cleaning and 70% on building the app to visualise results and explore stock data.
+1. All data (both from our raw data and yfinance results) must be exposed through FastAPI APIs. The Streamlit code should, as much as possible, be used to generate UIs, not process any data. I.e keep a traditionnal front/back separation of concerns.
+2. The project must be run using docker-compose (both streamlit / fastAPI server must be docker-compose services). Please also add a minimal readme explaining any actions necessary to run the project locally. If you are un-experience with docker-compose, using only one docker image is also possible but discouraged..
+3. You can use any charting libraries outsides of what streamlit offers if necessary
+4. Please try to enforce best practices when implementing APIs, and make the code as generic, maintainable and extensible as possible
+5. Please remain conscious of time: overall allocation of effort should be 30% on the data analysis/cleaning and 70% on building the app to visualise results and explore stock data.
 
 ## How to submit
 Please upload the code for this project to GitHub, and post a link to your repository below.
