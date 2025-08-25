@@ -11,7 +11,7 @@ The idea is to build this app using technology that will be close to what we are
 2. Conduct data pre-processing: ensure high-quality by cleaning dirty data, imputing missing values, and handling outliers. Show the impact of the data cleaning on the app.
 3. Conduct minimal data exploration analysis, i.e try to understand some of the variable relationships in the dataset
 4. Then your task is to create a stock charts for any ticker the user types in. You can use a library like yfinance to get stock data, and you should then build a UI that allows users to enter in company names or ticker symbols, select the stock they want to view, and then a chart will be presented to them where they can modify the time intervals.
-5. Implement *Explainable AI & Automated Report Generation*: Leverage LLMs (e.g., GPT-4) for narrative report generation:
+5. Implement **Explainable AI & Automated Report Generation**: Leverage LLMs (e.g., GPT-4) for narrative report generation:
   * Summarize campaign effectiveness in plain language.
   * Automatically create visual explanations (bar, line, or waterfall charts).
   * Generate ready-to-use executive summaries with actionable recommendations.
