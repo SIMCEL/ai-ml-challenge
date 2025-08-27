@@ -9,15 +9,15 @@ You work for a multi-store retailer (5 stores, 3 SKUs). Leadership wants a deman
 ## Data (provided)
 
 ### Download:
-	•	Full dataset (CSV) — 5,475 rows (daily, 2023, 5 stores × 3 SKUs)
-	•	Small sample (CSV)
+* Full dataset (CSV) — 5,475 rows (daily, 2023, 5 stores × 3 SKUs): [Link](https://github.com/SIMCEL/ai-ml-challenge/blob/main/retail_pricing_demand_2024.csv)
+* Small sample (CSV): [Link](https://github.com/SIMCEL/ai-ml-challenge/blob/main/retail_pricing_demand_2024_sample.csv)
 
 ### Columns
-	•	date (YYYY-MM-DD), store_id, sku_id
-	•	base_price, promo_flag (0/1), promo_depth (0–0.5), final_price (=base_price×(1−promo_depth))
-	•	competitor_price, holiday_flag (0/1), weather_index (0–1), week_of_year
-	•	Targets/derived: units_sold (demand), revenue (=units_sold×final_price), margin (units×(final_price−cost proxy; cost not supplied—see below)), stock_cap, stockout_flag
-	•	Split hint: set ∈ {train, test} with suggested split at 2023-10-01
+* date (YYYY-MM-DD), store_id, sku_id
+* base_price, promo_flag (0/1), promo_depth (0–0.5), final_price (=base_price×(1−promo_depth))
+* competitor_price, holiday_flag (0/1), weather_index (0–1), week_of_year
+* Targets/derived: units_sold (demand), revenue (=units_sold×final_price), margin (units×(final_price−cost proxy; cost not supplied—see below)), stock_cap, stockout_flag
+* Split hint: set ∈ {train, test} with suggested split at 2023-10-01
 
 Note: true unit costs aren’t included in the file. For margin modeling, assume a per-SKU cost parameter that you can estimate (e.g., via calibration or a config file).
 
