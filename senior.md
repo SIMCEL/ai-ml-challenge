@@ -23,6 +23,8 @@ Note: true unit costs aren’t included in the file. For margin modeling, assume
 
 ## Candidate Tasks
 
+__Please note that you're not required to complete all tasks.__
+
 1) Exploratory analysis (quick but thoughtful)
  * Identify main demand drivers (price, promo, holiday, weather, weekly/annual patterns, store effects).
  * Check price elasticity by SKU and promo effect sizes.
